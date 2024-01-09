@@ -70,7 +70,7 @@ inputs:
   request_pty:
     description: "Request a pseudo-terminal from the server."
 runs:
-  using: "docker"
+  using: "sunck"
   image: "Dockerfile"
 
 branding:
